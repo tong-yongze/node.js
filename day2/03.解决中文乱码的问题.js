@@ -8,7 +8,6 @@ server.on('request', (req, res) => {
     res.setHeader('Content-Type', 'text/html;charset=utf-8')
     res.end(str)
 
-
 })
 server.listen(80, () => {
 
