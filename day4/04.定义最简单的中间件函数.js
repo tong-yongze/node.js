@@ -1,4 +1,6 @@
+// 导入 express
 const express = require('express')
+// 创建 
 const app = express()
 
 // 开始定义
@@ -13,3 +15,4 @@ app.use(mw)
 app.listen(80, () => {
     console.log('http://127.0.0.1');
 })
+

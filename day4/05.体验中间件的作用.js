@@ -17,6 +17,6 @@ app.get('/user', (req, res) => {
   res.send('User page.' + req.startTime)
 })
 
-app.listen(80, () => {
-  console.log('http://127.0.0.1')
+app.listen(2000, () => {
+  console.log('http://127.0.0.1:2000')
 })
